@@ -10,4 +10,7 @@ class ArcadesController < ApplicationController
 
   def snake
   end
+
+  def j
+  end
 end

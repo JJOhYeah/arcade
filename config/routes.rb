@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   get 'pong', to: 'arcades#pong'
   get 'break', to: 'arcades#break'
   get 'snake', to: 'arcades#snake'
+  get 'j', to: 'arcades#j'
 end
