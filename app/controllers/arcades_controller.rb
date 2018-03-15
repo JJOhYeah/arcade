@@ -4,4 +4,10 @@ class ArcadesController < ApplicationController
 
   def pong
   end
+
+  def break
+  end
+
+  def snake
+  end
 end
