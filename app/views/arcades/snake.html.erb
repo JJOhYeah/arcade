@@ -156,7 +156,8 @@ function setFood() {
 /**
  * Starts the game
  */
-function main() {
+window.onload = function main() {
+
   // create and initiate the canvas element
   canvas = document.createElement("canvas");
   canvas.width = COLS*20;
@@ -168,7 +169,7 @@ function main() {
   ctx.font = "12px Helvetica";
   frames = 0;
   keystate = {};
-  // keeps track of the keybourd input
+  // keeps track of the keyboard input
   document.addEventListener("keydown", function(evt) {
     keystate[evt.keyCode] = true;
   });
@@ -178,6 +179,7 @@ function main() {
   // intatiate game objects and starts the game loop
   init();
   loop();
+  alert("Use your mouse to control the paddle.  Kick some computer ass!");
 }
 /**
  * Resets and inits game objects
