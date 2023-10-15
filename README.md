@@ -1,24 +1,5 @@
-# README
+# Arcade
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A collection of classic arcade games like Brick Breaker, Pong, and Snake.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![th-1722309558](https://github.com/JJOhYeah/arcade/assets/25302190/00d817e8-ae83-46fb-8bd5-a2a2f238df7d)
